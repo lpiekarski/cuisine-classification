@@ -14,3 +14,5 @@ Run the cuisine_classification.py script with options:
 
 Sample train file: [input/train.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/train.json) <br/>
 Sample prediction file: [input/test.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/test.json) <br/>
+
+Current accuracy is ~77% but can go up to ~96% with more train time.
