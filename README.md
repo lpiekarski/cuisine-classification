@@ -1,4 +1,6 @@
 # cuisine classification program
+Program predicting the cuisine of the recipe given the ingredients list. <br/>
+
 Run the cuisine_classification.py script with options:
 
 | option | long option | argument | description                                                                                                                                                                                                                                                 |
