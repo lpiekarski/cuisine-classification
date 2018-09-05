@@ -1,7 +1,8 @@
-# cuisine classification program
-Program predicting the cuisine of the recipe given the ingredients list. <br/>
+# Cuisine classification program
+Program predicting the cuisine of the recipe given the ingredients list.
 
-Run the cuisine_classification.py script with options:
+## Run notes
+Run the ```cuisine_classification.py``` script with options:
 
 | option | long option | argument | description                                                                                                                                                                                                                                                 |
 |--------|-------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -12,7 +13,11 @@ Run the cuisine_classification.py script with options:
 | -c     |  --cuisines |          |  shows list of cuisines that the program is able to identify                                                                                                                                                                                                |
 | -o     |  --out-file |  [FILE]  |  specifies the out file name for predictions                                                                                                                                                                                                                |
 
-Sample train file: [input/train.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/train.json) <br/>
-Sample prediction file: [input/test.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/test.json) <br/>
+## Training data examples
 
-Current accuracy is ~77% but can go up to ~96% with more train time.
+* Sample _train_ file: [input/train.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/train.json)
+* Sample _prediction_ file: [input/test.json](https://github.com/lpiekarski/cuisine-classification/blob/master/input/test.json)
+
+## Additional informations
+
+Current accuracy is _~77%_ but can go up to _~96%_ with more train time.
